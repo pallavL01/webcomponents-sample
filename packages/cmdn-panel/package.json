@@ -1,0 +1,26 @@
+{
+  "name": "@shared/cmdn-panel",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@spectrum-web-components/action-menu": "^0.13.16",
+    "@spectrum-web-components/button": "^0.17.7",
+    "@spectrum-web-components/dialog": "^0.10.7",
+    "@spectrum-web-components/icons-workflow": "^0.8.10",
+    "@spectrum-web-components/overlay": "^0.16.4",
+    "lit": "^2.2.7"
+  }
+}
